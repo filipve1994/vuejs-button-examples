@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import OverviewButtons from "@/views/OverviewButtons";
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/OverviewButtons",
+    name: "OverviewButtons",
+    component: OverviewButtons
   },
   {
     path: "/about",
